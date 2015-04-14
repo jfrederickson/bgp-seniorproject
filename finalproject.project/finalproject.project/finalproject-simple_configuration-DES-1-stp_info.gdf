@@ -1,0 +1,18 @@
+# This file is an output of a discrete event simulation.
+# It contains spanning tree information to be parsed while
+# visualizing the spanning tree using the Protocols->STP menu.
+# Legend: node name, VID, VLAN/tree name, port/node type, link name.
+Enterprise Network.Corp A (AS 10001).Ethernet Switch,0,Common ST,root,none
+Enterprise Network.Corp A (AS 10001).Ethernet Switch,0,Common ST,designated_port,Enterprise Network.Corp A (AS 10001).Admin LAN <-> Ethernet Switch
+Enterprise Network.Corp A (AS 10001).Ethernet Switch,0,Common ST,designated_port,Enterprise Network.Corp A (AS 10001).Email Server <-> Ethernet Switch
+Enterprise Network.Corp A (AS 10001).Ethernet Switch,0,Common ST,designated_port,Enterprise Network.Corp A (AS 10001).Http Server <-> Ethernet Switch
+Enterprise Network.Corp A (AS 10001).Ethernet Switch,0,Common ST,designated_port,Enterprise Network.Corp A (AS 10001).Access Router <-> Ethernet Switch
+Enterprise Network.Corp C (AS 30001).Ethernet Switch,0,Common ST,root,none
+Enterprise Network.Corp C (AS 30001).Ethernet Switch,0,Common ST,designated_port,Enterprise Network.Corp C (AS 30001).Admin LAN <-> Ethernet Switch
+Enterprise Network.Corp C (AS 30001).Ethernet Switch,0,Common ST,designated_port,Enterprise Network.Corp C (AS 30001).Email Server <-> Ethernet Switch
+Enterprise Network.Corp C (AS 30001).Ethernet Switch,0,Common ST,designated_port,Enterprise Network.Corp C (AS 30001).Http Server <-> Ethernet Switch
+Enterprise Network.Corp C (AS 30001).Ethernet Switch,0,Common ST,designated_port,Enterprise Network.Corp C (AS 30001).Access Router <-> Ethernet Switch
+Enterprise Network.Corp B (AS 20001).Ethernet Switch,0,Common ST,root,none
+Enterprise Network.Corp B (AS 20001).Ethernet Switch,0,Common ST,designated_port,Enterprise Network.Corp B (AS 20001).Admin LAN <-> Ethernet Switch
+Enterprise Network.Corp B (AS 20001).Ethernet Switch,0,Common ST,designated_port,Enterprise Network.Corp B (AS 20001).Email Server <-> Ethernet Switch
+Enterprise Network.Corp B (AS 20001).Ethernet Switch,0,Common ST,designated_port,Enterprise Network.Corp B (AS 20001).Access Router <-> Ethernet Switch
